@@ -34,7 +34,7 @@ PAUSE
 cls
 
 echo                                    ===================
-echo                                    * DCBM DataCenter *
+echo                                    * Nome Empresa    *
 echo                                    ===================
 echo.
 echo.
@@ -65,7 +65,7 @@ if "%opcao%" == "3" goto fim
 cls
 
 echo                                    ===================
-echo                                    * DCBM DataCenter *
+echo                                    * Nome Empresa    *
 echo                                    ===================
 echo.
 echo.
@@ -127,7 +127,7 @@ goto fim
 cls
 
 echo                                    ===================
-echo                                    * DCBM DataCenter *
+echo                                    * Nome Empresa    *
 echo                                    ===================
 echo.
 echo.
