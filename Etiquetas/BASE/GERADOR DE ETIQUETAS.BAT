@@ -13,7 +13,7 @@ ECHO.
 ECHO.
 REM ATT DE ETIQUETA 3.1.15
 
-start "" "%cd%\Etiqueta Geradores\02. Formulario Modulo Etiqueta (NAO ALTERAR).xlsm" > nul
+start "" "J:\ALMOXARIFADO\GERAL\Etiquetas\BASE\Etiqueta Geradores\02. Formulario Modulo Etiqueta (NAO ALTERAR).xlsm" > nul
 
 timeout 6 /nobreak >nul
 %Sendkeys% "^{b}"
@@ -34,7 +34,7 @@ PAUSE
 cls
 
 echo                                    ===================
-echo                                    * Nome Empresa    *
+echo                                    * DCBM DataCenter *
 echo                                    ===================
 echo.
 echo.
@@ -65,7 +65,7 @@ if "%opcao%" == "3" goto fim
 cls
 
 echo                                    ===================
-echo                                    * Nome Empresa    *
+echo                                    * DCBM DataCenter *
 echo                                    ===================
 echo.
 echo.
@@ -92,7 +92,7 @@ if "%opcao%" == "4" goto opep4
 if "%opcao%" == "5" goto opep5
 
 :opep1
-start "" "%cd%\Etiqueta Geradores\03. MALA DIRETA DE ETIQUETAS.docx"
+start "" "J:\ALMOXARIFADO\GERAL\Etiquetas\BASE\Etiqueta Geradores\03. MALA DIRETA DE ETIQUETAS.docx"
 echo.
 echo.
 echo                         GERADOR DE ETIQUETA ABERTO!
@@ -104,7 +104,7 @@ PAUSE
 goto menuetiquetapedido
 
 :opep2
-start "" "%cd%\Etiqueta Geradores\ETIQUETA PERSONALIZAVEL.xlsm"
+start "" "J:\ALMOXARIFADO\GERAL\Etiquetas\BASE\Etiqueta Geradores\ETIQUETA PERSONALIZAVEL.xlsm"
 PAUSE
 goto menuetiquetapedido
 
@@ -127,7 +127,7 @@ goto fim
 cls
 
 echo                                    ===================
-echo                                    * Nome Empresa    *
+echo                                    * DCBM DataCenter *
 echo                                    ===================
 echo.
 echo.
@@ -150,7 +150,7 @@ if "%opcao%" == "2" goto OPEE2
 if "%opcao%" == "3" goto OPEE3
 
 :OPEE1
-start "" "%cd%\ETIQUETA PARA ESTOQUE.xlsm" > nul
+start "" "J:\ALMOXARIFADO\GERAL\Etiquetas\BASE\ETIQUETA PARA ESTOQUE.xlsm" > nul
 MSG * NAO SALVE ESSE DOCUMENTO !
 echo.
 echo.
